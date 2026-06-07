@@ -1,4 +1,5 @@
 JAVA Mini Project
+
 This repository contains my Java mini project work.
 It’s a collection of source files, classes, and outputs built during my coursework.
 
