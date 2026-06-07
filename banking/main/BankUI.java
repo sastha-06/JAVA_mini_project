@@ -25,7 +25,7 @@ public class BankUI extends Application {
         showLogin(stage);
     }
 
-    // ================= LOGIN (UPGRADED UI) =================
+    // ================= LOGIN  =================
     public void showLogin(Stage stage) {
 
         Label title = new Label("💳 MINI BANKING SYSTEM");
@@ -94,7 +94,7 @@ public class BankUI extends Application {
         stage.show();
     }
 
-    // ================= DASHBOARD (FULL UI UPGRADE) =================
+    // ================= DASHBOARD  =================
     public void showDashboard(Stage stage) {
 
         // Sidebar
@@ -264,7 +264,7 @@ public class BankUI extends Application {
                 "-fx-background-color:#1e293b;" +
                 "-fx-text-fill:white;" +
                 "-fx-background-radius:12;" +
-                "-fx-padding:15;"+          // increase padding for bigger button
+                "-fx-padding:15;"+         
                 "-fx-font-size:16;"
         );
 
@@ -274,7 +274,7 @@ public class BankUI extends Application {
                         "-fx-text-fill:black;" +
                         "-fx-font-weight:bold;" +
                         "-fx-background-radius:12;"+
-                        "-fx-padding:15;"+          // increase padding for bigger button
+                        "-fx-padding:15;"+          
                         "-fx-font-size:16;"
                 )
         );
@@ -284,7 +284,7 @@ public class BankUI extends Application {
                         "-fx-background-color:#1e293b;" +
                         "-fx-text-fill:white;" +
                         "-fx-background-radius:12;"+
-                        "-fx-padding:15;"+          // increase padding for bigger button
+                        "-fx-padding:15;"+         
                         "-fx-font-size:16;"
                 )
         );
